@@ -1,0 +1,30 @@
+<li class="card t-all" data-animation="fade-in" data-delay="{{ loop.index }}">
+  {% if post.image %}
+    <div class="card-image">
+      <img class="card-background" width="1920" height="1080" src="{{ post.image }}" alt="Image of {{ post.title }}">
+    </div>
+  {% endif %}
+  <article class="card-body">
+    <header>
+      <h2>{{ post.title }}</h2>
+      <time datetime="{{ post.date | htmlDateString }}" class="card-time">{{post.date | postDate }}</time>
+    </header>
+    <span class="description-area">
+      <p>{{ post.description }}</p>
+    </span>
+    <ul class="more-links">
+      <li>
+        <span class="disabled">{{ post.author }}</span>
+      </li>
+      <li>
+        <a href="{{ post.url }}" aria-label="Read more about {{ post.title }}" class="sourcecode">
+          <svg aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path>
+            <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path>
+          </svg>
+          readmore 
+        </a>
+      </li>
+    </ul>
+  </article>
+</li>

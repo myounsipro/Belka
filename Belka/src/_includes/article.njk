@@ -1,0 +1,47 @@
+---
+layout: 'layouts/secondary.njk'
+---
+{% set previousPost = collections.post | getPreviousCollectionItem(page) %}
+{% set nextPost = collections.post | getNextCollectionItem(page) %}
+
+<header class="header header_article">
+  <img width="1920" height="1080" loading="lazy" src="{{ image }}" alt="{{ title }}">
+</header>
+<main class="main">
+  <div class="main-container">
+    <article class="article">
+      <header>
+        <span>
+          <a class="breadcrumb" href="/">Home</a> ›
+          <a class="breadcrumb" href="/blog">Blog</a> › {{ title }}
+        </span>
+        <h1>{{ title }}</h1>
+        <ul class="article-detail_list article-flex_list">
+          <li class="article-detail_item">
+            {{ author }}
+          </li>
+          <li class="article-detail_item">
+            <time datetime="{{ date | htmlDateString }}">{{ date | postDate }}</time>
+          </li>
+        </ul>
+      </header>
+      <main>
+        {{ content | safe }}
+      </main>
+      <section class="more">
+        {% if previousPost %}
+        <div class="more-previous">
+          Previous Blog Post<br /> <a href="{{ previousPost.url }}">{{ previousPost.data.title }}
+          </a>
+        </div>
+        {% endif %}
+        {% if nextPost %}
+        <div class="more-next">
+          Next Blog Post<br /> <a href="{{ nextPost.url }}">{{ nextPost.data.title }}
+          </a>
+        </div>
+        {% endif %}
+      </section>
+    </article>
+  </div>
+</main>

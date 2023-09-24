@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: belkaricature
+  namespace: argocd
+spec:
+  source:
+    repoURL: https://github.com/myounsipro/Belka.git
+    path: argocd
+    targetRevision: HEAD
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: belkaricature
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true

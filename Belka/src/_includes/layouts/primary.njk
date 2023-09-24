@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+
+  {% include 'components/meta.njk' %}
+
+  <title>{{ title }}</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="/css/style.css" />
+  <script src="/js/loadTheme.js"></script>
+  <script src="/js/redirect.js"></script>
+</head>
+
+<body class="t-all not-loaded">
+  {% include 'sections/preload.njk' %}
+
+  {% include 'components/nav.njk' %}
+
+  {% include 'sections/hero.njk' %}
+
+  {{ content | safe }}
+
+  {% include 'sections/footer.njk' %}
+
+  <script src="/js/main.js"></script>
+</body>
+
+</html>

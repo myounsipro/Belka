@@ -1,0 +1,92 @@
+{
+  "title": "About Me",
+  "bioHeader": "I am ==based in [Indonesia.](https://en.wikipedia.org/wiki/indonesia){target=_blank rel=\"noopener noreferrer\"}=={.highlight}",
+  "bio": [
+    "I am currently Majoring in Computer Science at ==[Indonesian Christian University in the Moluccas](https://ukim.ac.id){target=_blank rel=\"noopener noreferrer\"}=={.highlight}",
+    " I am also a <i>Certified Fiber Optic Technician</i> since 2017 by ==[APJTEL](http://apjatel.id/){target=_blank rel=\"noopener noreferrer\"}=={.highlight}"
+  ],
+  "languagesProficient": [
+    {
+      "level": "Advanced",
+      "languages": [
+        "HTML5",
+        "CSS3",
+        "Javascript",
+        "PHP",
+        "SQL",
+        "JSON",
+        "TailwindCSS"
+      ]
+    },
+    {
+      "level": "Working Knowledge",
+      "languages": [
+        "React",
+        "Vue",
+        "SCSS",
+        "Laravel",
+        "MongoDB",
+        "NodeJs",
+        "Git"
+      ]
+    },
+    {
+      "level": "Previous Experience",
+      "languages": [
+        "C++",
+        "Python",
+        "Java",
+        "Dart",
+        "Powershell",
+        "RouterOS/Mikrotik"
+      ]
+    },
+    {
+      "level": "Misc<sup>[1]</sup>",
+      "languages": [
+        "[IBM Equal Access](https://github.com/IBMa/equal-access){target=_blank rel=\"noopener noreferrer\"}",
+        "[W3 Accessibility (WAI-ARIA) 1.1](https://www.w3.org/TR/wai-aria/){target=_blank rel=\"noopener noreferrer\"}",
+        "[WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/){target=_blank rel=\"noopener noreferrer\"} <sup>[2]</sup>"
+      ]
+    }
+  ],
+  "languagesExtraInfo": [
+    {
+      "type": "info",
+      "details": "[1] As of now, I think the knowledge about [==ARIA (Accessibility — Rich Internet Application)=={.highlight}](https://en.wikipedia.org/wiki/WAI-ARIA){target=_blank rel=\"noopener noreferrer\"} is essential; so I spend my free time researching, watching, and reading articles related to it."
+    },
+    {
+      "type": "continuous",
+      "details": "— If you also want to learn how to make the web accessable for everyone, visit [==https://www.accessibility-developer-guide.com/=={.highlight}](https://www.accessibility-developer-guide.com/){target=_blank rel=\"noopener noreferrer\"} they provided amazing list on things you can do to improve your website accessibility."
+    },
+    {
+      "type": "info",
+      "details": "[2] One of the best tools that ==provided comprehensive checks and details information=={.highlight} about how to fix accessibility problems with your website."
+    }
+  ],
+  "toolsProficient": [
+    {
+      "level": "Advanced",
+      "tools": ["Adobe Photoshop", "Visual Studio Code"]
+    },
+    {
+      "level": "Working Knowledge",
+      "tools": [
+        "Adobe After Effect",
+        "Resolve Davinci",
+        "Gimp",
+        "Figma",
+        "Atom",
+        "Github"
+      ]
+    },
+    {
+      "level": "Previous Experience",
+      "tools": ["Blockbench", "Adobe Premiere", "Adobe Illustrator", "GitLab"]
+    },
+    {
+      "level": "Misc",
+      "tools": ["Hyper"]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+    "global": {
+        "appname": "BelkaRicature",
+        "fr": "https://www.instagram.com/belkacem.caricatures/"
+    },
+    "hero": {
+        "p1": "Je suis passionné ",
+        "p2": "par ",
+        "p3": "La caricature qui ..",
+        "p4": "et par tout le monde incroyable de la caricature .....",
+        "href": "Reseaux",
+        "arialLabe": "Link to my social media page"
+    },
+    "featured": {
+        "title": "Projet en vedette",
+        "subtitle": "Alimenté par ==Le courrier=={.highlight}",
+        "summary": "On va mettre ici un descriptif d'un tes meilleur projet ou bien des meilleurs projet et/ou concour par exemple le truc de l'ENTV ou bien les magzines etc.",
+        "date": "2013-05-07T04:05:25.911Z",
+        "tags": [
+            "Journal",
+            "ENTV",
+            "Reseaux sociaux",
+            "Magazine"
+        ],
+        "viewProject": "VOIR MES PROJETS",
+        "demoLink": "https://www.facebook.com/profile.php?id=100050603164367",
+        "footer": {
+            "recent": "Travail récent",
+            "featured": "Mis en exergue"
+        }
+    },
+    "work": {
+        "title": "Travaux",
+        "titleSummary": "Projets auxquels j'ai participé ou travaillé.",
+        "seeMore": "Voir plus sur ..."
+    },
+    "client": {
+        "title": "Clients",
+        "desc": "Les entreprises et organisations qui m'ont fait confiance.",
+        "clients": [
+            {
+                "name": "Le courrier d'Algérie",
+                "svg": "bank-indonesia.njk",
+                "absolutePath": true
+            },
+            {
+                "name": "Le temps",
+                "svg": "scc.njk",
+                "absolutePath": true
+            },
+            {
+                "name": "Salama",
+                "svg": "genbi.njk",
+                "absolutePath": true
+            },
+            {
+                "name": "Liberté",
+                "svg": "slbnania.njk",
+                "absolutePath": true
+            },
+            {
+                "name": "Le soir",
+                "svg": "koni.njk",
+                "absolutePath": true
+            },
+            {
+                "name": "ElWatan",
+                "svg": "7mu.njk",
+                "absolutePath": true
+            }
+        ]
+    },
+    "partof":{
+        "iam": "Fais",
+        "partOf": "parti de ",
+        "title": "",
+        "titleSummary": "Où je contribue activement ou que je suis membre enregistré de l'organisation",
+        "seeMore": "Voir plus sur ..."
+    },
+    "about": {
+        "title": "A props de moi",
+        "bioHeader": "Je suis ==basé en [Algérie.](https://en.wikipedia.org/wiki/algeria){target=_blank rel=\"noopener noreferrer\"}=={.highlight}",
+        "bio": [
+            "Je me spécialise actuellement en caricature journal ==[Le courrier](https://google.com){target=_blank rel=\"noopener noreferrer\"}=={.highlight}" ,
+            " Je suis également <i>Un avocat de formation diplomé</i> depuis 2013 par ==[UMMTO](http://google.fr/){target=_blank rel=\"noopener noreferrer\"}=={ .souligner}"
+        ],
+        "languagesProficient": [
+          {
+            "level": "Advanced",
+            "languages": [
+              "HTML5",
+              "CSS3",
+              "Javascript",
+              "PHP",
+              "SQL",
+              "JSON",
+              "TailwindCSS"
+            ]
+          },
+          {
+            "level": "Working Knowledge",
+            "languages": [
+              "React",
+              "Vue",
+              "SCSS",
+              "Laravel",
+              "MongoDB",
+              "NodeJs",
+              "Git"
+            ]
+          },
+          {
+            "level": "Previous Experience",
+            "languages": [
+              "C++",
+              "Python",
+              "Java",
+              "Dart",
+              "Powershell",
+              "RouterOS/Mikrotik"
+            ]
+          },
+          {
+            "level": "Misc<sup>[1]</sup>",
+            "languages": [
+              "[IBM Equal Access](https://github.com/IBMa/equal-access){target=_blank rel=\"noopener noreferrer\"}",
+              "[W3 Accessibility (WAI-ARIA) 1.1](https://www.w3.org/TR/wai-aria/){target=_blank rel=\"noopener noreferrer\"}",
+              "[WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/){target=_blank rel=\"noopener noreferrer\"} <sup>[2]</sup>"
+            ]
+          }
+        ],
+        "languagesExtraInfo": [
+          {
+            "type": "info",
+            "details": "[1] À partir de maintenant, je pense que les connaissances sur [==PHOTOSHOP (Graphisme — outils de graphique)=={.highlight}](https://en.wikipedia.org/wiki/graphisme){target =_blank rel=\"noopener noreferrer\"} sont essentielles ; je passe donc mon temps libre à rechercher, regarder et lire des articles qui s'y rapportent."
+          },
+          {
+            "type": "continuous",
+            "details": "— Si vous souhaitez également savoir comment rendre la carucature accessible à tous, visitez [==https://www.google.com/=={.highlight}](https://www.google.com/){target=_blank rel=\"noopener noreferrer\"} on fourni une liste incroyable de choses que vous pouvez faire pour améliorer l'accessibilité de votre art."
+          },
+          {
+            "type": "info",
+            "details": "[2] L'un des meilleurs outils qui ==a fourni des vérifications complètes et des informations détaillées=={.highlight} sur la façon de créer sans problèmes d'inspiration de votre sujet."
+          }
+        ],
+        "tools": "Outils",
+        "toolsProficient": [
+          {
+            "level": "Avancé",
+            "tools": ["Adobe Photoshop", "Visual Studio Code"]
+          },
+          {
+            "level": "Connaissances pratiques",
+            "tools": [
+              "Adobe After Effect",
+              "Resolve Davinci",
+              "Cari 1",
+              "Cari 2"
+            ]
+          },
+          {
+            "level": "Experiences precedentes",
+            "tools": ["Blockbench", "Adobe Premiere", "Adobe Illustrator", "GitLab"]
+          },
+          {
+            "level": "Divers",
+            "tools": ["Hyper"]
+          }
+        ]
+      },
+    "tech": {
+        "author": "MyounsiPro",
+        "preload": "Tenez-vous bien, la page à laquelle vous essayez d'accéder est en cours de chargement"
+    },
+    "footer": {
+        "rights": "2023 - Tous droits réservés ",
+        "citation": "Apprenez à apprécier quelque chose qui vous anime ;)"
+    },
+    "admin": {
+        "title": "Gestionnaire de contenu - "
+    },
+    "contact":{
+        "title": "",
+        "p1": "Cette page est actuellement en cours de re-développement",
+        "p2": "Revenez dans quelques semaines ou dans les prochains mois"
+        
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "quote": "Apprenez à ==apprécier=={.highlight} ce qui vous anime ;)",
+  
+  "brand": {
+    "title": "BelkaRicature",
+    "svg": "logo.njk"
+  },
+  "sublinks": [
+    {
+      "linkTo": "/blog",
+      "linkName": "Blog"
+    },
+    {
+      "linkTo": "/contact",
+      "linkName": "Contact"
+    },
+    {
+      "linkTo": "/multimedia",
+      "linkName": "Multimedia"
+    }
+  ]
+}

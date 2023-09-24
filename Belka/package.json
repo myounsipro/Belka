@@ -1,0 +1,41 @@
+{
+  "name": "Belkarikature",
+  "version": "1.0.0",
+  "description": "These are the template used by [myounsipro](https://myounsipro.github.io)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --no-source-map src/assets/scss/style.scss public/css/style.css",
+    "sass:compressed": "sass --style=compressed --no-source-map src/assets/scss/style.scss public/css/style.css",
+    "watch": "npm-run-all --parallel watch:*",
+    "watch:eleventy": "eleventy --serve",
+    "watch:sass": "npm run sass:compressed -- --watch",
+    "build": "npm run sass:compressed && eleventy",
+    "start": "npm-run-all sass:compressed --parallel watch:*",
+    "dev": "npm run watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myounsipro/Belkarikature.github.io.git"
+  },
+  "keywords": [],
+  "author": "myounsipro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/myounsipro/Belkarikature.github.io/issues"
+  },
+  "homepage": "https://github.com/myounsipro/Belkarikature.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0",
+    "@11ty/eleventy-plugin-rss": "^1.2.0"
+  },
+  "dependencies": {
+    "highlight.js": "^11.5.1",
+    "markdown-it-anchor": "^8.6.2",
+    "markdown-it-attrs": "^4.1.4",
+    "markdown-it-bracketed-spans": "^1.0.1",
+    "markdown-it-mark": "^3.0.1",
+    "markdown-it-table-of-contents": "^0.5.2",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.49.8"
+  }
+}

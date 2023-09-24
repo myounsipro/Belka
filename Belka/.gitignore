@@ -1,0 +1,8 @@
+# dependencies
+/node_modules
+
+# public files
+/public
+.vscode
+
+# /src/blog/example/*
